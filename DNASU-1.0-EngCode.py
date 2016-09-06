@@ -7,6 +7,11 @@ in each row, and returns a new file with each plasmid sequence in the same posit
 The script is far from error-proof. It considers blank spaces in the csv, but other than that,
 it doesn't consider the possibility of various results in the DNASU Search, for example.
 
+By default the input file name is "DNASU_IDS.csv" (Place it in the Python working directory before
+exceuting the script). 
+In line 77 you can modify the input file name. The output file name is DNASU_out.csv, again,you can 
+modify it in line 79.
+
 """
 
 import urllib2
