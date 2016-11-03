@@ -1,5 +1,5 @@
 """
-Version 1.0 - 5 of september 2016.
+Version 1.0 - 5 of september 2016. For Python 2.7.
 
 This script extracts plasmids sequences from DNASU. Takes a CSV file with a plasmid ID
 in each row, and returns a new file with each plasmid sequence in the same position.
